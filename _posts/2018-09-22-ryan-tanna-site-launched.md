@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ryan Tanna, Launches first Website"
+title: "Ryan launches first Website"
 date: 2018-09-22
 ---
 
