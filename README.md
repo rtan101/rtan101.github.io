@@ -1,4 +1,4 @@
-# Jogendra Singh - http://www.ryantanna.com
+# Ryan Tanna - http://www.ryantanna.com
 My Portfolio. http://www.ryantanna.com or https://rtan101.github.io
 
 <!-- ## About Me
