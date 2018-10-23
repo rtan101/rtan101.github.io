@@ -47,15 +47,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 			<section id="main" class="main">
 
-					<form method="post" action="contact.php">
-						<label for="name">Name:</label>
-						<input type="text" class="text" name="cf_name" id="Name" /><br>
-						<label for="email">Email:</label>
-						<input type="text" class="text" name="cf_email" id="email" /><br>
-						<label for="text">Message:</label>
-						<textarea class="text" name="cf_message" id="message"></textarea><br>
-						<input type="submit" class="submit" value="Send" />
-					</form>
+			
 
 
 					</body>
@@ -91,30 +83,3 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 	</body>
 </html>
-
-<?php
-$field_name = $_POST['cf_name'];
-$field_email = $_POST['cf_email'];
-$field_message = $_POST['cf_message'];
-$mail_to = 'ryantanna101@gmail.com';
-$subject = 'Your Subject'.$field_name;
-$body_message = 'From: '.$field_name."\n";
-$body_message .= 'Email: '.$field_email."\n";
-$body_message .= 'Message: '.$field_message;
-$headers = 'From: '.$field_email."\r\n";
-$headers .= 'Reply-To: '.$field_email."\r\n";
-$mail_status = mail($mail_to, $subject, $body_message, $headers);
-
-if ($mail_status) { ?>
-	<script language="javascript" type="text/javascript">
-		alert('Message sent - thank you!');
-		window.location = 'contact.html';
-}
-else { ?>
-	<script language="javascript" type="text/javascript">
-		alert('Error - message not sent');
-		window.location = 'contact.html';
-	</script>
-}
-?>
-
