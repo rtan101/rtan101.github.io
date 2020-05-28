@@ -1,5 +1,5 @@
-# Ryan Tanna - http://www.ryantanna.com
-My Portfolio. http://www.ryantanna.com or https://rtan101.github.io
+# Ryan Tanna - http://www.tauroadvisory.com
+My Portfolio. http://www.tauroadvisory.com or https://rtan101.github.io
 
 <!-- ## About Me
 
